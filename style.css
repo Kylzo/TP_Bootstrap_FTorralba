@@ -1,0 +1,60 @@
+/********************* GENERAL *********************/
+body {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #9a0000;
+    --secondary-color: #5c0100;
+}
+
+.text-success {
+    color: #009900 !important;
+}
+
+img {
+    width: 100%;
+}
+
+i {
+    font-size: 2em;
+}
+
+.bg-body-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-body-secondary {
+    background-color: var(--secondary-color);
+}
+
+.navbar-nav,
+.btn,
+.list-unstyled,
+.service,
+.title-service {
+    font-family: "Roboto", sans-serif;
+}
+
+.service {
+    margin-bottom: 0px;
+}
+
+#accueil {
+    height: 45vh;
+    background-image: url("./assets/pizza-2810589_1920.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+
+}
+
+.plat{
+    font-size: 6px;
+}
+
+.nav-bar {
+    font-size: 10px;
+}
